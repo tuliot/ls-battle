@@ -8,6 +8,10 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tuliot/ls-battle.git"
+  },
   "dependencies": {
     "body-parser": "^1.15.0",
     "browser-sync": "^2.11.1",
