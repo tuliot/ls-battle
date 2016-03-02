@@ -1,6 +1,9 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
-var reload = browserSync.reload
+var reload = browserSync.reload;
+var mongoose = require('mongoose');
+require('./lib/database')
+var contestantModel = require('./lib/models/contestant')
 
 
 gulp.task('default', function(){
@@ -19,5 +22,15 @@ gulp.task('serve', function(){
     });
     gulp.watch(['*.html','styles/**/*.css','scripts/**/*.js'], {cwd: 'app'}, reload);
 })
-//Got the recipe for this Gulp task at this link
-//https://github.com/gulpjs/gulp/blob/master/docs/recipes/server-with-livereload-and-css-injection.md
+
+
+gulp.task('createContestant', function(done){
+  var contestant = new contestantModel()
+  contestant.name = "Nobody Important";
+  contestant.hashtag = "lpbattlenobodyimportant";
+  contestant.save(function(err){
+      console.log(err);
+      done()
+    });
+
+});
