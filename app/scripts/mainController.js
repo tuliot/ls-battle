@@ -15,8 +15,11 @@ function mainCtrl($http){
 
   })
 
-  self.openVoting = function(){
+  $http.get('../data.json').success(function(data){
 
-  }
+    self.tweets = data.tweets;
+    console.log(data)
+
+  })
 
 }

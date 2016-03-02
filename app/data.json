@@ -21,5 +21,24 @@
       "pic": "http://www.santa.net/santa-claus-christmas-blog/wp-content/uploads/2015/12/santa.net-Christmas-mall-free-santa-entertainment1-140x140.jpg"
     }
 
-  ]
+  ],
+
+   "tweets": [{
+     "username": "Test User1",
+     "imageURL": "http://pbs.twimg.com/profile_images/481280802547048448/LKj-kow5_normal.jpeg",
+     "tweetBody": "That performance was sick. Cant wait to see the next one"
+   },
+   {"username": "Test User1",
+   "imageURL": "http://pbs.twimg.com/profile_images/481280802547048448/LKj-kow5_normal.jpeg",
+   "tweetBody": "That performance was sick. Cant wait to see the next one"
+  },
+   {"username": "Test User1",
+   "imageURL": "http://pbs.twimg.com/profile_images/481280802547048448/LKj-kow5_normal.jpeg",
+   "tweetBody": "That performance was sick. Cant wait to see the next one"
+    }
+
+
+
+]
+
 }

@@ -9,5 +9,21 @@
   text-align: center;
 
 }
-#card_team_name{
+
+#tweet_list{
+  list-style-type: none;
+  display: inline-block;
+}
+#tweet_image{
+  float:left;
+  margin-right: 1em;
+  margin-top: .5em;
+}
+#tweet_username{
+  font-weight: bold;
+}
+#tweet_body{
+  font-weight: normal;
+  position: relative;
+  bottom: 1em;
 }
