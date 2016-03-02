@@ -8,7 +8,7 @@
    <li class="col-md-3 " id="card_list" ng-repeat="team in mainCtrl.teams">
      <img ng-src="{{team.pic}}" alt="..." class="img-circle">
      <h3 id="card_team_name">{{team.name}}</h3>
-     <h4>Hashtags</h4>
+     <h4>{{team.hashtags}}</h4>
    </li>
  </div>
  <!-- End of Team Cards -->
@@ -19,7 +19,7 @@
 <div class="row">
   <div class="col-md-10 col-md-offset-1">
   <div id="progress_bars" class="progress">
-    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{mainCtrl.votes0}}%">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{mainCtrl.votes0}}%">
       {{mainCtrl.teams[0].name}}<span class="sr-only">40% Complete (success)</span>
     </div>
   </div>
@@ -34,7 +34,7 @@
     </div>
   </div>
   <div class="progress">
-    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: {{mainCtrl.votes3}}%">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: {{mainCtrl.votes3}}%">
       {{mainCtrl.teams[3].name}}<span class="sr-only">80% Complete (danger)</span>
     </div>
   </div>
