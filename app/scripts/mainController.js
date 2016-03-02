@@ -6,14 +6,14 @@ function mainCtrl($http){
 
   var self = this;
 
-  $http.get('').success(function(data){
-
+  $http.get('../data.json').success(function(data){
+    self.teams = data.contestants;
     console.log(data)
 
   })
 
   self.openVoting = function(){
-    
+
   }
 
 }
