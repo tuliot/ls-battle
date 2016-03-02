@@ -1,0 +1,29 @@
+#progress_bars{
+  margin-top: 2em;
+}
+#card_list{
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  left: .5em;
+  text-align: center;
+
+}
+
+#tweet_list{
+  list-style-type: none;
+  display: inline-block;
+}
+#tweet_image{
+  float:left;
+  margin-right: 1em;
+  margin-top: .5em;
+}
+#tweet_username{
+  font-weight: bold;
+}
+#tweet_body{
+  font-weight: normal;
+  position: relative;
+  bottom: 1em;
+}
