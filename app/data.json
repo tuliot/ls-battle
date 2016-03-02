@@ -1,0 +1,25 @@
+{
+  "contestants": [
+    {
+      "name": "The Hip-Hopopotamus",
+      "voteCount": "100",
+      "pic": "http://onlinegamesocean.com/wp-content/uploads/2015/10/Batman-Arkham-Origins-Free-Download-140x140.jpg"
+    },
+    {
+      "name": "The Rhymenocerus",
+      "voteCount": "40",
+      "pic": "http://onlinegamesocean.com/wp-content/uploads/2015/08/Hitman-Contracts-free-download-140x140.jpg"
+    },
+    {
+      "name": "The New Zealanders",
+      "voteCount": "60",
+      "pic": "http://www.santa.net/santa-claus-christmas-blog/wp-content/uploads/2015/12/santa.net-Christmas-mall-free-santa-entertainment1-140x140.jpg"
+    },
+    {
+      "name": "Hair Helmets",
+      "voteCount": "60",
+      "pic": "http://www.santa.net/santa-claus-christmas-blog/wp-content/uploads/2015/12/santa.net-Christmas-mall-free-santa-entertainment1-140x140.jpg"
+    }
+
+  ]
+}

@@ -1,0 +1,13 @@
+#progress_bars{
+  margin-top: 2em;
+}
+#card_list{
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  left: .5em;
+  text-align: center;
+
+}
+#card_team_name{
+}
