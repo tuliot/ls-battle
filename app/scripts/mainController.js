@@ -21,5 +21,7 @@ function mainCtrl($http,$timeout,$scope){
     })
   }
 
-  setInterval(self.grabData,1000);
+  // run once immediately then start interval
+  self.grabData();
+  setInterval(self.grabData, 5000);
 }
