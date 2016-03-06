@@ -28,7 +28,7 @@
 <div class="row">
   <li id="tweet_list" class="col-md-8 col-md-offset-3" ng-repeat="tweet in mainCtrl.tweets">
     <img id="tweet_image" ng-src="{{tweet.imageURL}}" alt="..." class="img-circle">
-    <h4 id="tweet_username"  class="col-md-8">{{tweet.username}}</h4>
+    <h4 id="tweet_username"  class="col-md-8">@{{tweet.username}}</h4>
     <h4 id="tweet_body" class="col-md-8">{{tweet.tweetBody}}</h4>
   </li>
 </div>
